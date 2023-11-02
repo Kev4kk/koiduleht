@@ -1,0 +1,35 @@
+.pealkiri {
+    color: blue;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: darkslateblue;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    border: 5px solid blue
+}
+
+table {
+    border: 5px solid black; /* You can adjust the width and color of the border */
+    border-collapse: collapse; /* This property ensures cell borders merge into a single border */
+}
+
+th {
+    border: 2px solid black;
+}
+
+.body {
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexchild {
+    width: 50%;
+    margin:5%
+}
