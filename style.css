@@ -19,6 +19,11 @@ table {
     border-collapse: collapse; /* This property ensures cell borders merge into a single border */
 }
 
+thead {
+    border: 3px solid purple;
+    border-width: 0 0 10px 0;
+}
+
 th {
     border: 2px solid black;
 }
